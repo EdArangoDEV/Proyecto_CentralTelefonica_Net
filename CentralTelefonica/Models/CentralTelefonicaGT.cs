@@ -9,7 +9,7 @@ namespace CentralTelefonica.Models
         private double acumulador;
 
         public int Contador
-        { 
+        {
             get
             {
                 return contador;
@@ -20,7 +20,7 @@ namespace CentralTelefonica.Models
             }
         }
         public double Acumulador
-        {  
+        {
             get
             {
                 return acumulador;
@@ -34,23 +34,44 @@ namespace CentralTelefonica.Models
 
         public double GerTotalFacturas()
         {
-            return 0;
+            return Acumulador;
         }
 
         public int GetTotalLLamadas()
         {
-            return 0;
+            return Contador;
         }
 
         public void RegistrarLlamadas(Llamada registro)
         {
             Contador++; // Contador = Contador + 1;
-            
-            Acumulador = registro.Duracion * 0.25;
+            double duracion = registro.Duracion;
+            Console.WriteLine(registro);
 
-            Acumulador = registro.Duracion * 0.20; // Franja 1
-            Acumulador = registro.Duracion * 0.35; // Franja 2
-            Acumulador = registro.Duracion * 0.85; // Franja 3
+            if (registro.GetType() == typeof(LlamadaLocal))
+            {
+                Acumulador = Acumulador + duracion * 0.25;
+            }
+            else if (registro.GetType() == typeof(LlamadaInterior))
+            {
+                switch (((LlamadaInterior)registro).Franja)
+                {
+                    case 1:
+                        Acumulador = Acumulador + (duracion * 0.20); // Franja 1
+                        break;
+                    case 2:
+                        Acumulador = Acumulador + (duracion * 0.35); // Franja 2
+                        break;
+                    case 3:
+                        Acumulador = Acumulador + (duracion * 0.85); // Franja 3
+                        break;
+                }
+            }
+
         }
+
+
+
+
     }
 }

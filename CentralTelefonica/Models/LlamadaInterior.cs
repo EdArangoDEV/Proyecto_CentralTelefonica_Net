@@ -56,7 +56,7 @@ namespace CentralTelefonica.Models
         }
 
         public LlamadaInterior() : base(){
-            
+
         }
 
         public LlamadaInterior(string numeroOrigen, string numeroDestino, double duracion, int franja) : base(numeroOrigen, numeroDestino, duracion)
@@ -71,7 +71,7 @@ namespace CentralTelefonica.Models
 
         public override string ToString()
         {
-            return "";
+            return $"Log -> llamada Interior: Destino: {NumeroDestino} -> Origen: {NumeroOrigen} con Duracion = {Duracion}";
         }
     }
 }

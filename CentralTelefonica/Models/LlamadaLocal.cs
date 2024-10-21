@@ -33,7 +33,7 @@ namespace CentralTelefonica.Models
 
         public override string ToString()
         {
-            return "";
+            return $"Log -> llamada Local: Destino: {NumeroDestino} -> Origen: {NumeroOrigen} con Duracion = {Duracion}";
         }
 
     }
