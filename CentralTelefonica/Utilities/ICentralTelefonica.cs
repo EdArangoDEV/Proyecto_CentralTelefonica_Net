@@ -7,7 +7,7 @@ namespace CentralTelefonica.Utilities
         public int Contador { get; set; }
         public double Acumulador { get; set; }
         
-        public void RegistrarLlamadas(Llamada registro);
+        public void RegistrarLlamada(Llamada registro);
         public int GetTotalLLamadas();
         public double GerTotalFacturas();
     }

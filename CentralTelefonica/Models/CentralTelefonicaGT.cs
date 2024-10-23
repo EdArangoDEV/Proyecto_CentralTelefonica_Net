@@ -42,10 +42,11 @@ namespace CentralTelefonica.Models
             return Contador;
         }
 
-        public void RegistrarLlamadas(Llamada registro)
+        public void RegistrarLlamada(Llamada registro)
         {
             Contador++; // Contador = Contador + 1;
             double duracion = registro.Duracion;
+            // Console.Clear();
             Console.WriteLine(registro);
 
             if (registro.GetType() == typeof(LlamadaLocal))
@@ -65,7 +66,7 @@ namespace CentralTelefonica.Models
                     case 3:
                         Acumulador = Acumulador + (duracion * 0.85); // Franja 3
                         break;
-                }
+                } 
             }
 
         }

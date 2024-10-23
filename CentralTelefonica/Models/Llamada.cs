@@ -17,5 +17,8 @@ namespace CentralTelefonica.Models
         }
 
         public abstract double CalcularPrecio();
+
+        // parametro por referencia guardan el valor en memoria
+        public abstract double CalcularPrecioRef(ref double resultado);
     }
 }

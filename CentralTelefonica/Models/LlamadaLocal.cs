@@ -8,7 +8,7 @@ namespace CentralTelefonica.Models
         {
             get
             {
-                return precio;
+                return precio == 0 ? 0.25 : precio;
             }
             set
             {
@@ -28,7 +28,7 @@ namespace CentralTelefonica.Models
 
         public override double CalcularPrecio()
         {
-            return 0;
+            return this.Duracion * this.Precio;
         }
 
         public override string ToString()
@@ -36,5 +36,10 @@ namespace CentralTelefonica.Models
             return $"Log -> llamada Local: Destino: {NumeroDestino} -> Origen: {NumeroOrigen} con Duracion = {Duracion}";
         }
 
+        public override double CalcularPrecioRef(ref double resultado)
+        {
+            resultado += this.Duracion * this.Precio; 
+            return resultado;
+        }
     }
 }
