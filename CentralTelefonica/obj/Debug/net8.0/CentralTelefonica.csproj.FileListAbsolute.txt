@@ -1,0 +1,15 @@
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\bin\Debug\net8.0\CentralTelefonica.exe
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\bin\Debug\net8.0\CentralTelefonica.deps.json
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\bin\Debug\net8.0\CentralTelefonica.runtimeconfig.json
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\bin\Debug\net8.0\CentralTelefonica.dll
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\bin\Debug\net8.0\CentralTelefonica.pdb
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.AssemblyInfoInputs.cache
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.AssemblyInfo.cs
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.csproj.CoreCompileInputs.cache
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.sourcelink.json
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.dll
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\refint\CentralTelefonica.dll
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.pdb
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\CentralTelefonica.genruntimeconfig.cache
+D:\Documentos\EA\Proyectos_DEV\Proyecto_CentralTelefonica_C#\CentralTelefonica\obj\Debug\net8.0\ref\CentralTelefonica.dll

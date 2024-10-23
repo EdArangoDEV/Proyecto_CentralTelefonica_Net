@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CentralTelefonica/1.0.0": {
+        "runtime": {
+          "CentralTelefonica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CentralTelefonica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
